@@ -23,7 +23,7 @@ router.post('/', function(req, res) {
   var name = req.body.name;
   console.log("form name", name);
   // var random_string = gen(32);
-  var link = "https://wishnow.site?name="+name;
+  var link = "https://wishnow.site/?name="+name;
   res.render("index",{name:name, wisher: wisher, link:link})
 });
 

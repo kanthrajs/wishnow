@@ -239,6 +239,8 @@ border: 35px solid #f2c23a;}
 .uniquelink a{
   /*font-size: 3em;*/
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  z-index: 99999;
 }
 .uniquelink a img{
   width: 8em;
