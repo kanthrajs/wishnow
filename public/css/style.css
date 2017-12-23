@@ -232,6 +232,10 @@ border: 35px solid #f2c23a;}
   position: relative;
   z-index: 99999;
 }
+.inputData{
+  position: relative;
+  z-index: 99999;
+}
 .uniquelink a{
   /*font-size: 3em;*/
   font-family: 'Roboto', sans-serif;
